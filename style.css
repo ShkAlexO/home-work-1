@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4eaf0;
+}
+.app {
+   padding: 50px;
+    width: 100%;
+}
+
+.app__title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app__table,
+.app__table tr,
+.app__table td {
+    border: 1px solid #bebbbb;
+    border-spacing: 0;
+} 
+
+.app__table {
+    margin: 0 auto;
+    background-color: #e0e0e0;
+}
+
+.app__table td {
+    padding: 20px;
+}
+
+.app__model,
+.app__brand {
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #5050d3;
+}
+
+.app__model {
+    background-color: #8282bf;
+}
+
+td.app__info {
+    padding: 0;
+}
+
+.app__info ul {
+    padding: 20px 20px 20px 40px;
+    border-bottom: 1px solid #bebbbb;
+}
+
+.app__info ul:last-child {
+    border-bottom: none;
+}
